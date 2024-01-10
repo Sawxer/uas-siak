@@ -28,7 +28,7 @@
                                         <td>{{ $loop->iteration }}</td>
                                         <td>{{ $tugas->judul }}</td>
                                         <td>{{ $tugas->deskripsi }}</td>
-                                        <td>{{ $tugas->guru->mapel->nama_mapel }}</td>
+                                        <td>{{ $tugas->dosen->mapel->nama_mapel }}</td>
                                         <td>
                                             <div class="d-flex">
                                                 @if ($jawaban->count() > 0)
